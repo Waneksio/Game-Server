@@ -16,7 +16,6 @@ import javax.persistence.SequenceGenerator;
 public class User {
 
     @Id
-    @SequenceGenerator(name = "term_model_seq_id")
     @Column(name = "u_id")
     int id;
 
